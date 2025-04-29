@@ -9,7 +9,7 @@ import UIKit
 import CoreData
 
 class HomeViewController: UIViewController , UITableViewDataSource , UITableViewDelegate , addTaskDelegate {
-    //home view
+    //home view controller 
     func didAddTask() {
         fetchTask()
         tableView.reloadData()
